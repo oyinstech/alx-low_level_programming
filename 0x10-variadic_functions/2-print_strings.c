@@ -21,10 +21,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("%s", str);
 		else
 			printf("%p", str);
-		if (separator && i < n - 1
+		if (separator && i < n - 1)
 				printf("%s", separator);
-				}
-				printf("\n");
-
-				va_end(nums);
+	}
+	printf("\n");
+	va_end(nums);	
 }
