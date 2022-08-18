@@ -3,19 +3,19 @@
 ## Tasks
 
 ## Header File
-* main.h: Header file containing prototypes for all functions written in the project.
+* *main.h*: Header file containing prototypes for all functions written in the project.
 
-## Tasks
+## Tasks 
 ### 0. binary_to_uint
-* 0-binary_to_uint.c: C function that converts a binary number to an unsigned int
+* *0-binary_to_uint.c*: C function that converts a binary number to an unsigned int
   * where b is pointing to a string of 0 and 1 chars
   * Return: the converted number
 
 ### 1. print_binary
-* 1-print_binary.c: C function that prints the binary representation of a number
- * Not allowed to use arrays
- * Not allowed to use **malloc**
- * Not allowed to use the **% or / operators**
+* *1-print_binary.c*: C function that prints the binary representation of a number
+  * Not allowed to use arrays
+  * Not allowed to use *malloc*
+  * Not allowed to use the *% or / operators*
 
 ### 2. get_bit
 * *2-get_bit.c*: C function that returns the value of a bit at a given index
